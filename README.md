@@ -27,10 +27,10 @@ The dataset is useful for educational, research, and analytical purposes, helpin
 1) Web Scraping: Extracted using Python’s pandas.read_html() function from the Worldometer website.
 
 2) Data Cleaning & Transformation:
-  - Percentages converted to floats (Yearly Change, Urban Population %, World Share %).
-  - Impossible zeros (e.g., Fertility Rate, Median Age) were replaced with median or verified real values.
-  - Density was recalculated only when Land Area values were corrected.
-  - Numeric columns were converted to correct types (int or float) for analysis.
+    - Percentages converted to floats (Yearly Change, Urban Population %, World Share %).
+    - Impossible zeros (e.g., Fertility Rate, Median Age) were replaced with median or verified real values.
+    - Density was recalculated only when Land Area values were corrected.
+    - Numeric columns were converted to correct types (int or float) for analysis.
 3) Final Dataset: Contains clean, ready-to-use data for 233 countries/territories with demographic and population metrics.
 
 Acknowledgement:
